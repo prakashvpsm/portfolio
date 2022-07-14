@@ -31,7 +31,7 @@ export default function Projects() {
                                     {project.desc}
                                 </div>
                                 <div className='mt-auto'>
-                                    <div className='flex gap-3'>
+                                    <div className='flex gap-3 xs:flex-wrap'>
                                         {
                                             project.techStacks.map(d => {
                                                 return <div className='bg-primary px-3 py-2 rounded text-white text-xs'>{d}</div>

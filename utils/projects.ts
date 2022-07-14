@@ -1,7 +1,7 @@
 export const projects = [
     {
         title : 'LEOS - Learn to Earn On Stacks',
-        desc : 'A Decentralized Web3 Learning Platform. This wep app consists of eight module. To go for each module, user must complete previous steps. This project is mainly about learning of web3 stacks',
+        desc : 'A Decentralized Web3 Learning Platform. This web app consists of eight modules. To go for each module, the user must complete previous steps. This project is mainly about learning web3 stacks',
         techStacks : ["Next JS", "Stack JS", "Hiro Wallet", "Tailwind CSS", "Supabase"],
     },
     {

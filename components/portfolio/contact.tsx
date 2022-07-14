@@ -25,7 +25,7 @@ export default function Contacts() {
                 <div className='bg-alt  w-20 h-1 ml-10 rounded-full'></div>
             </div>
             <div className='bg-white shadow-md py-20 px-10 flex flex-col gap-10 rounded-lg '>
-                <div className='flex items-center justify-center gap-10'>
+                <div className='flex items-center justify-center gap-10 xs:flex-col sm:flex-col xs:items-start sm:items-start'>
                     <div className=''><span className='font-bold'>Email:</span>  prakashupsm@gmail.com</div>
                     <div className=''><span className='font-bold'>Phone:</span>  +91 8072045512</div>
                 </div>

@@ -12,7 +12,7 @@ export default function Skills() {
                 {/* <div className='bg-gray-300  w-10 h-1'></div> */}
             </div>
         <div className='bg-white shadow-xl px-5 py-16 rounded-lg'>
-            <div className='grid grid-cols-6 gap-10'>
+            <div className='grid grid-cols-6 gap-10 xs:grid-cols-2 sm:grid-cols-2'>
                 {
                     skills.map((skill, i) => {
                         return <div className='flex flex-col justify-center items-center gap-2'>

@@ -5,7 +5,7 @@ import { menus } from '../../utils/menus'
 
 export default function SideBar() {
   return (
-    <div className=''>
+    <div className='xs:hidden'>
         <div className='flex flex-col gap-7 mt-0'>
             {
                 menus.map((d, i) => {
