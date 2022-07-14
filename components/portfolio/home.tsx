@@ -16,7 +16,9 @@ export default function Home() {
                         reactJS. Strong experience in API development using Node JS and integration with web UI
                     </p>
                     <div>
-                        <button className='bg-primary rounded px-6 py-2 text-white cursor-pointer'>Download my resume</button>
+                        <form method="get" action="prakash_resume.pdf">
+                            <button type='submit' className='bg-primary rounded px-6 py-2 text-white cursor-pointer'>Download my resume</button>
+                        </form>
                     </div>
                 </div>
             </div>
