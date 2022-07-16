@@ -1,6 +1,8 @@
 import React from 'react'
+import countapi from 'countapi-js';
 
 export default function Home() {
+      
     return (
         <div className='w-full flex h-screen items-center justify-center' id='home'>
             <div className='w-full flex items-center justify-center xs:flex-col sm:flex-col xs:gap-5 sm:gap-5 xs:mt-20 sm:mt-20 '>
@@ -17,7 +19,7 @@ export default function Home() {
                     </p>
                     <div>
                         <form method="get" action="prakash_resume.pdf">
-                            <button type='submit' className='bg-primary rounded px-6 py-2 text-white cursor-pointer hover:bg-alt'>Download my resume</button>
+                            <button type='submit' id='cv' className='bg-primary rounded px-6 py-2 text-white cursor-pointer hover:bg-alt'>Download my resume</button>
                         </form>
                     </div>
                 </div>
