@@ -12,10 +12,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#2EC67E',
-        secondary : '#ECECEC',
+        primary: '#454d66',
+        secondary : '#309975',
         bgp : '#f7f7f7',
-        alt : '#F22D54'
+        alt : '#58b368'
       },
       screens: {
         xs: { min: '320px', max: '481px' },

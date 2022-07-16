@@ -9,7 +9,7 @@ export default function SideBar() {
         <div className='flex flex-col gap-7 mt-0'>
             {
                 menus.map((d, i) => {
-                    return <div className='bg-gray-100/20 p-3 rounded-full shadow-2xl shadow-white'>
+                    return <div className='bg-gray-100/20 p-3 rounded-full shadow-2xl shadow-white cursor-pointer hover:bg-alt'>
                             <Link href={`#${d.path}`}>
                                 <div>
                                     <img className='w-5 h-5' src={`icons/${d.path}.png`} />
