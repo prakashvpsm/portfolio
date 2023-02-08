@@ -1,5 +1,20 @@
 export const projects = [
     {
+        title : 'Spur - Smart Mirror',
+        desc : 'A Virtual makeup application that helps the customer to try out stores products and helps to purchase those products',
+        techStacks : ["React JS" , "Tailwind CSS", "Antd", "React PWA", "IndexedDB"],
+    },
+    {
+        title : 'Connectsu',
+        desc : 'ConnectsU is a platform that enables end users such as students to access information of organizations and also the jobs, vacancies, services provided by them',
+        techStacks : [ "React JS" , "Tailwind CSS", "Antd", "PWA"],
+    },
+    {
+        title : 'Vence - Herd Manager Prototype',
+        desc : 'A google map application used to manage Herds within virtual and physical fences',
+        techStacks : ["React JS" , "Tailwind CSS", "Antd"],
+    },
+    {
         title : 'LEOS - Learn to Earn On Stacks',
         desc : 'A Decentralized Web3 Learning Platform. This web app consists of eight modules. To go for each module, the user must complete previous steps. This project is mainly about learning web3 stacks',
         techStacks : ["Next JS", "Stack JS", "Hiro Wallet", "Tailwind CSS", "Supabase"],
