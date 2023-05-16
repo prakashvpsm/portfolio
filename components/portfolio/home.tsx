@@ -17,7 +17,7 @@ export default function Home() {
                     <h6 className='text-gray-400 text-xl'>Hello, I'm</h6>
                     <h1 className='font-bold text-6xl uppercase xs:w-3/6 xs:break-word sm:break-word sm:text-2xl xs:text-2xl'><span className='text-secondary'>Prakash</span> Venkatachalam</h1>
                     <p className='w-5/6 font-normal font text-xl text-gray-400'>
-                        A <span className='font-bold text-secondary'>Full stack developer</span> with more than 4.3 years of strong web development experience using
+                        A <span className='font-bold text-secondary'>Full stack developer</span> with more than 4.5 years of strong web development experience using
                         reactJS. Strong experience in API development using Node JS and integration with web UI
                     </p>
                     <div>
